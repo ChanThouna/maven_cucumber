@@ -2,7 +2,7 @@ Feature: Facebook Sign up Feature
 
   @DataTable
   Scenario: Verify creation of facebook user
-    Given User has launched the application
+    Given User has launched the application on browser
     When User clicks on Create New Account button
     And user creates the new account
       | Field        | Value        |

@@ -17,8 +17,8 @@ public class FBSignUpSteps {
 	
 	 WebDriver driver = BaseClass.driver;
 
-    @Given("^User has launched the application$")
-    public void user_has_opened_the_facebook_application() throws Throwable {
+	 @Given("^User has launched the application on browser$")
+	    public void user_has_launched_the_application_on_browser() throws Throwable{
     	
     	
     	driver.get("https://en-gb.facebook.com/");
@@ -52,8 +52,7 @@ public class FBSignUpSteps {
    	    	tbLastName.sendKeys(LastName);
    	    	tbMobile.sendKeys(MobileNum);
    	    	tbPassword.sendKeys(Password);
-   	    	
-   	    	
+   	    	   	
    	    }
 
        
